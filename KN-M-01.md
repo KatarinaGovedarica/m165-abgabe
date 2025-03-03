@@ -4,6 +4,7 @@
 und hier nochmal als [Datei](cloudinit-mongodb.yaml)
 
 - Screenshot von Compass mit der Liste der bereits bestehenden Datenbanken:
+![compass screenshot](Compass-Screenshot.png)
 
 - Schauen Sie sich Ihren Connection String an. Erklären Sie was die Option authSource=admin macht und wieso dieser Parameter so korrekt ist.  (Schauen Sie in den Quellen nach):
 
