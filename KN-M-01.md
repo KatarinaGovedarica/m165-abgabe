@@ -1,4 +1,5 @@
 - Ihre Cloud-Init Datei mit dem geänderten Passwort:
+![cloud init screenshot](cloud-init-screenshot.png)
 
 - Screenshot von Compass mit der Liste der bereits bestehenden Datenbanken:
 
