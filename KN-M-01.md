@@ -1,3 +1,4 @@
+## A) Installation
 - Ihre Cloud-Init Datei mit dem geänderten Passwort:
 ![cloud init screenshot](cloud-init-screenshot.png)
 
@@ -27,3 +28,12 @@ Wichtig sonst ist es ein Sicherheitsrisiko wenn die Firewall nicht richtig konfi
 
 - Zeigen Sie mit einem Screenshot den Inhalt der MongoDB Konfigurations-Datei in dem die beiden ersetzten Werte sichtbar sind. Sie können die Datei z.B. mit nano öffnen oder mit cat den Inhalt anzeigen lassen und mit grep filtern.
 ![screenshot](screenshot-k1.png)
+
+## B) Erste Schritte GUI
+
+- Screenshot (oder JSON) Ihres einzufügenden Dokuments (bevor Sie es einfügen)
+
+- Screenshot Ihrer Compass-Applikation mit der Datenbank, Collection und Dokument sichtbar, nachdem Sie den Datentyp geändert haben.
+
+- Export-Datei und Erklärung zu dem Datentyp mit möglichen Implikationen auf andere Datentypen. Wieso ist dieser komplizierte Weg notwendig, um ein Datum zu definieren?
+
