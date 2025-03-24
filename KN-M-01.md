@@ -32,8 +32,14 @@ Wichtig sonst ist es ein Sicherheitsrisiko wenn die Firewall nicht richtig konfi
 ## B) Erste Schritte GUI
 
 - Screenshot (oder JSON) Ihres einzufügenden Dokuments (bevor Sie es einfügen)
+![screenshot](json.png)
 
 - Screenshot Ihrer Compass-Applikation mit der Datenbank, Collection und Dokument sichtbar, nachdem Sie den Datentyp geändert haben.
+![screenshot](compass-mit.json.png)
 
 - Export-Datei und Erklärung zu dem Datentyp mit möglichen Implikationen auf andere Datentypen. Wieso ist dieser komplizierte Weg notwendig, um ein Datum zu definieren?
 
+[Exported JSON File](Govedarica.Katarina.json)
+
+
+Damit birthdate als echtes Datum erkannt wird (und nicht als String), muss man es im Format "$date" angeben. MongoDB Compass speichert neue Felder sonst als Text. Der Export zeigt, wie das Datum richtig aussehen muss, damit man z. B. nach Jahren filtern kann. Deshalb ist dieser Weg notwendig.
