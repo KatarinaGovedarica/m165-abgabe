@@ -27,3 +27,11 @@ Eine Bibliothek besitzt mehrere Bücher, aber jedes Buch gehört nur zu einer Bi
 
 ## B) Logisches Modell für MongoDB
 
+- Ein Bild des logischen Datenmodells.
+![Bild](L-Datenmodell.png)
+
+
+- Die Original-Datei des logischen Datenmodells (z.B. draw.io)
+[Datei](logischessdatenmodell.drawio)
+
+- Erklärung zu Verschachtelungen. wieso haben Sie Ihre Variante gewählt.
