@@ -43,3 +43,38 @@ Wichtig sonst ist es ein Sicherheitsrisiko wenn die Firewall nicht richtig konfi
 
 
 Damit birthdate als echtes Datum erkannt wird (und nicht als String), muss man es im Format "$date" angeben. MongoDB Compass speichert neue Felder sonst als Text. Der Export zeigt, wie das Datum richtig aussehen muss, damit man z. B. nach Jahren filtern kann. Deshalb ist dieser Weg notwendig.
+
+## C) Erste Schritte Shell
+
+- Screenshot von Compass, der zeigt, dass Sie die Befehle eingegeben haben
+![screenshot](mongoshell.png)
+
+- Screenshot von der MongoDB-Shell auf dem Linux-Server, der zeigt, dass Sie die Befehle eingegeben haben.
+![screenshot](mongocmd.png)
+  
+- Was machen die Befehle 1-5? Was ist der Unterschied zwischen Collections und Tables?
+
+show dbs;
+→ Zeigt alle Datenbanken auf dem MongoDB-Server an.
+
+show databases;
+→ Macht dasselbe wie show dbs; – listet alle Datenbanken auf.
+
+use Govedarica;
+→ Wechselt zur Datenbank mit dem Namen Govedarica. Wenn sie noch nicht existiert, wird sie beim ersten Speichern erstellt.
+
+show collections;
+→ Zeigt alle Collections (Sammlungen von Dokumenten) in der aktuellen Datenbank an.
+
+show tables;
+→ Gleiche Funktion wie show collections; – wird aus Kompatibilitätsgründen unterstützt.
+
+var test = "hallo";
+→ Erstellt eine JavaScript-Variable test mit dem Wert "hallo". Zeigt, dass man in der Mongo Shell JavaScript nutzen kann.
+
+test;
+→ Gibt den Inhalt der Variable test aus (also "hallo"), wenn sie vorher gesetzt wurde.
+
+Unterschied:
+Collection: sammlung, speichert json ähnliche dokumente
+Table: tabelle, speichert zeilen mit festen spalten
