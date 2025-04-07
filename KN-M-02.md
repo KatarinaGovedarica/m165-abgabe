@@ -35,3 +35,14 @@ Eine Bibliothek besitzt mehrere Bücher, aber jedes Buch gehört nur zu einer Bi
 [Datei](logischessdatenmodell.drawio)
 
 - Erklärung zu Verschachtelungen. wieso haben Sie Ihre Variante gewählt.
+
+**Ausleihe/Benutzer**
+
+Ich hab bei Benutzer die Ausleihen direkt mit reingeschrieben, weil das logisch ist.
+Wenn man wissen will, was ein Benutzer ausgeliehen hat, muss man nicht extra in eine andere Liste schauen – alles ist direkt bei ihm gespeichert.
+Das ist einfacher und schneller, wenn man z. B. das Profil vom Benutzer aufruft.
+
+**Bibliothek/Buch**
+Jedes Buch gehört nur zu einer Bibliothek, und die Infos zur Bibliothek ändern sich fast nie.
+Deshalb hab ich das einfach ins Buch reingeschrieben.
+Dann weiß man gleich, wo das Buch steht, ohne dass man nochmal eine andere Liste durchsuchen muss.
