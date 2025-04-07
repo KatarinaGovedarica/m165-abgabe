@@ -25,3 +25,5 @@ Ein Buch kann mehrmals ausgeliehen werden, aber jede Ausleihe bezieht sich nur a
 **Bibliothek ↔ Buch (1:N)**
 Eine Bibliothek besitzt mehrere Bücher, aber jedes Buch gehört nur zu einer Bibliothek.
 
+## B) Logisches Modell für MongoDB
+
