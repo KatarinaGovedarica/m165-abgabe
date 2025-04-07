@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.2.8">
+  <diagram name="Seite-1" id="F5b7icZeunUgE2hkgNnw">
+    <mxGraphModel dx="362" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HFpeLe7sHo-UZ0Bha_-U-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;_id : ObjectId&lt;/div&gt;&lt;div&gt;&amp;nbsp;vorname : string&lt;/div&gt;&lt;div&gt;&amp;nbsp;nachname : string&lt;/div&gt;&lt;div&gt;&amp;nbsp;email : string&lt;/div&gt;&lt;div&gt;&amp;nbsp;ausleihen : [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; buchId : string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ausleihdatum : date&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; rückgabedatum : date&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; ]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="130" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HFpeLe7sHo-UZ0Bha_-U-2" value="&lt;div&gt;&amp;nbsp;_id : string&lt;/div&gt;&lt;div&gt;&amp;nbsp;titel : string&lt;/div&gt;&lt;div&gt;&amp;nbsp;autor : string&lt;/div&gt;&lt;div&gt;&amp;nbsp;genre : string&lt;/div&gt;&lt;div&gt;&amp;nbsp;bibliothek : {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;name : string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;ort : string&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="330" y="130" width="150" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HFpeLe7sHo-UZ0Bha_-U-3" value="Collection: Buch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HFpeLe7sHo-UZ0Bha_-U-4" value="Collection: Benutzer" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
