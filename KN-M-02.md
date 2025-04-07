@@ -43,6 +43,13 @@ Wenn man wissen will, was ein Benutzer ausgeliehen hat, muss man nicht extra in 
 Das ist einfacher und schneller, wenn man z. B. das Profil vom Benutzer aufruft.
 
 **Bibliothek/Buch**
+
 Jedes Buch gehört nur zu einer Bibliothek, und die Infos zur Bibliothek ändern sich fast nie.
 Deshalb hab ich das einfach ins Buch reingeschrieben.
 Dann weiß man gleich, wo das Buch steht, ohne dass man nochmal eine andere Liste durchsuchen muss.
+
+## C) Anwendung des Schemas in MongoDB
+
+[Datei](createCollection.js)
+
+erstellt zwei collections, benutzer und bücher. mit use bilbiothekDB wird die datenbank ausgewählt. mit db.createCollection() werden die collections erstellt.
