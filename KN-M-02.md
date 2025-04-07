@@ -16,3 +16,12 @@
 
 **-Ausleihe**: Die Entität Ausleihe bildet die Beziehung zwischen einem Benutzer und einem Buch ab. Sie enthält zusätzlich das Ausleihdatum und das Rückgabedatum. Über diese Entität wird eine N:N-Beziehung zwischen Benutzer und Buch dargestellt.
 
+**Benutzer ↔ Ausleihe (1:N)**
+Ein Benutzer kann viele Ausleihen tätigen, aber jede Ausleihe gehört genau zu einem Benutzer.
+
+**Buch ↔ Ausleihe (1:N)**
+Ein Buch kann mehrmals ausgeliehen werden, aber jede Ausleihe bezieht sich nur auf ein bestimmtes Buch.
+
+**Bibliothek ↔ Buch (1:N)**
+Eine Bibliothek besitzt mehrere Bücher, aber jedes Buch gehört nur zu einer Bibliothek.
+
