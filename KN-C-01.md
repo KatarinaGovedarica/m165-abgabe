@@ -23,3 +23,6 @@ Cassandra erlaubt keine Joins, daher wird jede Abfrage durch eine separate Tabel
 - 'BücherProBibliothek' listet alle Bücher einer Bibliothek.
 Die Partition Keys wurden so gewählt, dass die Anfragen performant bleiben. Redundanz ist in Cassandra gewünscht, da sie schnellere Abfragen erlaubt.
 
+# C) Physisches Modell für Cassandra
+
+[Skript](cassandrakn01.cql)
