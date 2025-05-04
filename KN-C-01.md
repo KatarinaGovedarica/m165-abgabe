@@ -9,7 +9,9 @@
 
 1. Eine visuelle Darstellung des logischen Datenmodells.
 
-2. Erklärung zu den Abläufen und welche Daten benötigt werden.
+![pic](cassandramodel.png)
+
+3. Erklärung zu den Abläufen und welche Daten benötigt werden.
 
 Das logische Modell wurde aus dem konzeptionellen Modell abgeleitet und in Abfrage-orientierte Tabellen überführt.
 Cassandra erlaubt keine Joins, daher wird jede Abfrage durch eine separate Tabelle abgebildet.
