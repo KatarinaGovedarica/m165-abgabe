@@ -29,7 +29,12 @@ Eine Skript-Datei (.txt), die alle Daten löscht.
 
 Screenshot, der zeigt, dass Sie die Abfragen ausführen konnten.
 
+
+Delete Partial
 ![Screenshot](deletedata.png)
+
+Delete All
+![Screenshot](deleteall.png)
 
 # D) Daten verändern
 
