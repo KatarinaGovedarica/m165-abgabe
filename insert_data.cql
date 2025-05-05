@@ -1,8 +1,7 @@
 USE bibliothek;
 
-
 -- Bibliothek: Basel
-INSERT INTO BücherProBibliothek (
+INSERT INTO BuecherProBibliothek (
   bibliothek_id, buch_id, titel, autor, genre
 ) VALUES (
   00000000-0000-0000-0000-000000000001,

@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS BenutzerNachAusleihe (
   benutzer_id UUID,
   ausleihdatum DATE,
   buch_id UUID,
-  rückgabe_datum DATE,
+  rueckgabe_datum DATE,
   PRIMARY KEY (benutzer_id, ausleihdatum)
 );
 
@@ -12,12 +12,12 @@ CREATE TABLE IF NOT EXISTS AusleihenProBuch (
   buch_id UUID,
   ausleihdatum DATE,
   benutzer_id UUID,
-  rückgabe_datum DATE,
+  rueckgabe_datum DATE,
   PRIMARY KEY (buch_id, ausleihdatum)
 );
 
--- Tabelle: BücherProBibliothek
-CREATE TABLE IF NOT EXISTS BücherProBibliothek (
+-- Tabelle: BuecherProBibliothek
+CREATE TABLE IF NOT EXISTS BuecherProBibliothek (
   bibliothek_id UUID,
   buch_id UUID,
   titel TEXT,
@@ -25,3 +25,4 @@ CREATE TABLE IF NOT EXISTS BücherProBibliothek (
   genre TEXT,
   PRIMARY KEY (bibliothek_id, buch_id)
 );
+ 
