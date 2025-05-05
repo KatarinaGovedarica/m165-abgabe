@@ -6,4 +6,25 @@ Eine Skript-Datei (.js), die die Befehle enthält. Die Datei sollte einfach ausf
 
 Screenshot, der zeigt, dass Sie die Abfragen ausführen konnten.
 
-![Sscreenshot](mongoinsertdata.png)
+![Screenshot](mongoinsertdata.png)
+
+# B) Daten löschen
+
+Skript 1, welches alle Collections löscht.
+
+[Skript Datei](delete_all.js)
+
+Skript 2, welches Daten teilweise löscht.
+
+[Skript Datei](delete_partial.js)
+
+Screenshots, die zeigen, dass Sie die Abfragen ausführen konnten.
+
+Delete All
+
+![Screenshot](mongodeleteall.png)
+
+
+Delete Partial
+
+![Screenshot](mongodeletepartial.png)
