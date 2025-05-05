@@ -16,3 +16,26 @@ Eine Skript-Datei (.txt), die die Befehle enthält. Die Datei sollte einfach aus
 Screenshot, der zeigt, dass Sie die Abfragen ausführen konnten.
 
 ![Screenshot](querydata.png)
+
+# C) Daten löschen
+
+Eine Skript-Datei (.txt), die die Befehle enthält. Die Datei sollte einfach ausführbar sein, ohne dass  Änderungen notwendig sind. Die Skript-Datei ist so formatiert, dass Sie von Auge lesbar ist (z.B. nicht alles auf einer Zeile)
+
+[Skript Datei](delete_partial.cql)
+
+Eine Skript-Datei (.txt), die alle Daten löscht.
+
+[Skript Datei](delete_all.cql)
+
+Screenshot, der zeigt, dass Sie die Abfragen ausführen konnten.
+
+![Screenshot](deletedata.png)
+
+# D) Daten verändern
+
+Beschreibungen der 3 Szenarien
+
+Eine Skript-Datei (.txt), die die Befehle enthält. Die Datei sollte einfach ausführbar sein, ohne dass  Änderungen notwendig sind. Die Skript-Datei ist so formatiert, dass Sie von Auge lesbar ist (z.B. nicht alles auf einer Zeile)
+
+Screenshot, der zeigt, dass Sie die Abfragen ausführen konnten.
+
