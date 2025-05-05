@@ -38,6 +38,20 @@ Eine Skript-Datei, mit den Abfragen.
 
 Screenshot, der zeigt, dass Sie die Abfragen ausführen konnten.
 
-![Screenshot](mongoquerydata1.png)
+![Screenshot](mongoquery1.png)
 
-![Screenshot](mongoquerydata2.png)
+![Screenshot](mongoquery2.png)
+
+
+# D) Daten verändern
+
+
+Eine Skript-Datei, mit den Befehlen.
+
+[Skript Datei](update_data.js)
+
+Screenshot, der zeigt, dass Sie die Abfragen ausführen konnten.
+
+![Screenshot](mongoupdate1.png)
+
+![Screenshot](mongoupdate2.png)
