@@ -1,7 +1,7 @@
 USE bibliothek;
 
 -- Alle Bücher einer Bibliothek
-SELECT * FROM BücherProBibliothek
+SELECT * FROM BuecherProBibliothek
 WHERE bibliothek_id = 00000000-0000-0000-0000-000000000001;
 
 -- Alle Ausleihen eines Benutzers
