@@ -28,3 +28,16 @@ Delete All
 Delete Partial
 
 ![Screenshot](mongodeletepartial.png)
+
+
+# C) Daten abfragen
+
+Eine Skript-Datei, mit den Abfragen.
+
+[Skript Datei](query_data.js)
+
+Screenshot, der zeigt, dass Sie die Abfragen ausführen konnten.
+
+![Screenshot](mongoquerydata1.png)
+
+![Screenshot](mongoquerydata2.png)
